@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Poppins ;
+}
+
+.logo {
+    margin: 3rem;
+    text-align: center;
+}
+
+.firstsection {
+    margin: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+    margin: 3rem;
+}
+
+h1 {
+    font-size: 4rem;
+    width: 30rem;
+}
+
+.paragraph {
+    width: 30rem;
+    color: rgb(88, 87, 87);
+    line-height: 1.5rem;
+}
+
+.buttons {
+    text-align: center;
+    position: relative;
+    top: -3rem;
+}
+
+.link {
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    text-decoration: none;
+background-color: purple;
+border-radius: 2rem;
+}
+
+.images {
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+}
+
+.fleximages {
+border-radius: 1rem;
+}
+
+.section4 {
+margin: 2rem 0 4rem;
+text-align: center;
+}
+
+.built {
+margin: 3rem 0 1.5rem 0;
+font-size: 1rem;
+color: rgb(9, 168, 168);
+}
+
+.smart {
+color: rgb(2, 2, 55);
+font-size: 2.5rem;
+}
+
+.paragraph2 {
+color: rgb(76, 75, 75);
+line-height: 1.5rem;
+margin-top: 1rem;
+}
+.circle{
+border: .2rem solid rgb(76, 76, 76);
+border-radius: 2.5rem;
+height: 5rem;
+padding: 1rem;
+width: 5rem;
+color: black;
+position: relative;
+}
+.number{
+position: absolute;
+bottom:.9rem;
+}
+.lastsection {
+display: flex;
+height: 18rem;
+background-color: rgba(17, 172, 207, 0.5);
+justify-content: center;
+align-items: center;
+color: white;
+background-size: cover;
+position: relative;
+}
+
+.lastsection::before {
+content: '';
+height: 18rem;
+position: absolute;
+width: 100vw;
+background-image: url("desktop/image-footer.jpg");
+z-index: -1;
+}
+
+.Experience {
+margin: 1rem;
+font-size: 2rem;
+width: 20rem;
+font-weight: 400;
+}
+
+.footerparagraph {
+width: 17rem;
+margin-right: 2.5rem;
+}
